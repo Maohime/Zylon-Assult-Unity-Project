@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class PlayerControlles : MonoBehaviour
 {
+    [Header("General Setup Settings")]
     [SerializeField] float controlSpeed = 40f;
     [SerializeField] float xRange = 12f;
     [SerializeField] float yRange = 10f;
